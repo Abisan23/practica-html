@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(#FFFFFF, #33ddb8)
+}
+
+.portada {
+    text-align: center;
+}
+
+.portada h2 {
+    color: #053e4b;
+}
+
+.informacion {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+
+.foto,
+.img,
+.perfil {
+    border-radius: 50%;
+    width: 300px;
+    height: 350px
+}
+
+
+img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+h1 {
+    color: rgb(3, 219, 147);
+
+}
+
+h2 {
+    color: rgb(59, 160, 126);
+    text-align: center;
+
+}
+
+ul {
+    font-size: 16px;
+    list-style-type: none;
+    padding: 10px;
+    border-collapse: collapse;
+
+    font-weight: bold;
+
+}
+
+li {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 10px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    font-weight: bold;
+    color: rgb(59, 160, 126)
+}
+
+ol {
+    font-size: 16px
+}
+
+.tabla {
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+.seccion3 {
+    margin: 0 auto;
+}
+
+
+.tabla th,
+.tabla td {
+    border: 2px solid rgb(59, 160, 126);
+    padding: 8px;
+    text-align: center;
+    color: rgb(59, 160, 126);
+    font-weight: bold;
+}
+
+.tabla th {
+    background-color: rgb(59, 160, 126);
+    color: #FFFFFF;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contacto a {
+    display: inline-block;
+}
